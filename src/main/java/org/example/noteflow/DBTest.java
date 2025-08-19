@@ -12,6 +12,9 @@ public class DBTest {
             System.out.println("Connection successful!");
         } catch (SQLException e) {
             e.printStackTrace();
+
+
+
         }
     }
 }
