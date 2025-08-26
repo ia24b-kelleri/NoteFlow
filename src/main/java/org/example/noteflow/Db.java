@@ -16,7 +16,7 @@ public class Db {
         // JDBC-URL für deine DB "NoteFlow"
         cfg.setJdbcUrl("jdbc:mariadb://localhost:3306/NoteFlow?useUnicode=true&characterEncoding=UTF-8");
 
-        // Zugangsdaten -> das sind die Werte, die du in MariaDB mit CREATE USER angelegt hast
+        // Zugangsdaten  -> das sind die Werte, die du in MariaDB mit CREATE USER angelegt hast
         cfg.setUsername("appuser");   // z. B. dein DB-User
         cfg.setPassword("secret");    // z. B. dein DB-Passwort
 
